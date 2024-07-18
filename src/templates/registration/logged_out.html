@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2>Logged Form</h2>
+
+
+<p>Don't have an account ?  <a href=" {% url "register" %} ">Register Here</a></p>
+
+<p> You have been logged out  <a href=" {% url "login" %} ">Login Here Here</a></p>
+
+{% endblock %}
